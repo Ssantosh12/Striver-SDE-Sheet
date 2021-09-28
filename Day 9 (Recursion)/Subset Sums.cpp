@@ -1,4 +1,7 @@
- vector<int> subsetSums(vector<int> arr, int N)
+//only the main part is here for understanding, same thinking as creating all the subsets
+// For each element there are two choices , to choose or to not choose this element (for adding in sum in this case), and after that we move to the next element
+
+vector<int> subsetSums(vector<int> arr, int N)
     {
         // Write Your Code here
         vector<int> ans;
