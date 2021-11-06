@@ -8,6 +8,9 @@ public:
                 ind=mid;
                 break;
             }
+            
+            //just use the basic idea of binary search that is divide array in two halves and use one half and decline/cut other half
+            
             if(nums[mid]>nums[right]){
                 if(nums[mid]<target)
                     left=mid+1;
